@@ -10,7 +10,8 @@
 
         @media @phone {
            width: 95%;
-           align-items: center;
+           margin-right: 2.5%;
+           margin-left: 2.5%;
         }
 
         .navSubContainer {
@@ -21,7 +22,7 @@
 
             @media @phone {
                 style: flex;
-                justify-items: center;
+                
              }
 
         h1 {
@@ -30,6 +31,10 @@
             text-align: center;
             padding-top: 10px;
             padding-bottom: 20px;
+
+            @media @phone {
+                font-size: 3.75em;
+                }
         }
 
         nav {
@@ -43,7 +48,13 @@
                font-size: 1.65rem;
                padding-right: 17px;
                padding-left: 17px;
-               padding-bottom: 10px; 
+               padding-bottom: 10px;
+               
+               @media @phone {
+                font-size: 1.5rem;
+                padding-right: 14px;
+                padding-left: 14px;
+                }
             }
         }
     }

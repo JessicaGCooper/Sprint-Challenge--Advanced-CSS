@@ -174,7 +174,8 @@ p {
 @media (max-width: 500px) {
   .navContainer {
     width: 95%;
-    align-items: center;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
   }
 }
 .navContainer .navSubContainer {
@@ -186,7 +187,6 @@ p {
 @media (max-width: 500px) {
   .navContainer .navSubContainer {
     style: flex;
-    justify-items: center;
   }
 }
 .navContainer .navSubContainer h1 {
@@ -195,6 +195,11 @@ p {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .navContainer .navSubContainer h1 {
+    font-size: 3.75em;
+  }
 }
 .navContainer .navSubContainer nav {
   display: flex;
@@ -209,6 +214,13 @@ p {
   padding-left: 17px;
   padding-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .navContainer .navSubContainer nav a {
+    font-size: 1.5rem;
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -222,7 +234,11 @@ footer {
 }
 @media (max-width: 500px) {
   footer {
+    width: 98%;
     margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 1%;
+    margin-left: 1%;
   }
 }
 @media (max-width: 500px) {
@@ -345,7 +361,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text {
-    width: 95%;
+    width: 92%;
   }
 }
 .home .walk .walk-text h3 {
@@ -354,7 +370,9 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text h3 {
     width: 100%;
-    padding: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin: 0;
   }
 }
 .home .walk .walk-text p {
@@ -363,7 +381,9 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text p {
     width: 100%;
-    padding: 15px;
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
   }
 }
 .home .walk .walk-text .btn button {
@@ -394,7 +414,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk-img {
-    width: 90%;
+    width: 92%;
     margin: 15px;
     padding: 0;
   }
