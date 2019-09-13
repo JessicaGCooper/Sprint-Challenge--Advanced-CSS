@@ -162,7 +162,7 @@ p {
   margin: 0 auto;
 }
 .navContainer {
-  style: flex;
+  display: flex;
   flex-direction: column;
   align-content: center;
   width: 100%;
@@ -183,11 +183,6 @@ p {
   margin: 0 auto;
   max-width: 800px;
   width: 100%;
-}
-@media (max-width: 500px) {
-  .navContainer .navSubContainer {
-    style: flex;
-  }
 }
 .navContainer .navSubContainer h1 {
   font-size: 4.25rem;
