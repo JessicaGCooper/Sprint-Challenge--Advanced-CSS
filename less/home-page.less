@@ -1,5 +1,6 @@
 // Home Content
 
+
 .home { 
 
   .intro {
@@ -31,14 +32,6 @@
       @media @phone {
         font-size: 1.45rem;
         width: 95%;
-      }
-
-      .bottomP {
-        @media @phone {
-          width: 95%;
-          border-bottom: 1px solid @main-border-color;
-        }
-
       }
     }
   }
@@ -102,6 +95,13 @@
         font-size: 1.45rem;
       }
     }
+
+    .bottomP {
+      @media @phone {
+      padding-bottom: 30px;
+      border-bottom: 1px solid @main-border-color;
+      }
+    }
   }
 
   .walk {
@@ -116,6 +116,7 @@
         align-items: center;
         margin: 0;
         padding: 0;
+        border: none;
       }
 
     .walk-text {
@@ -175,6 +176,7 @@
       @media @phone {
         width: 92%;
         margin: 15px;
+        margin-top: 25px;
         padding: 0;
       }
       
