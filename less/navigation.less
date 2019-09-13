@@ -1,1 +1,40 @@
 // Navigation code here
+
+.navContainer {
+    .flexCenterColumn ();
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 15px;
+    border: 2px solid @nav-border;
+    background: @nav-bg;
+
+        .navSubContainer {
+            align-items: center;
+            margin: 0 auto;
+            max-width: 800px;
+            width: 100%;
+
+        h1 {
+            font-size: 4.25rem;
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+            a {
+               text-decoration: none;
+               color: @nav-font;
+               font-size: 1.65rem;
+               padding-right: 17px;
+               padding-left: 17px;
+               padding-bottom: 10px; 
+            }
+        }
+    }
+}

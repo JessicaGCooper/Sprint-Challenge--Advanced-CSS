@@ -1,1 +1,21 @@
 // Mixins Here
+
+.flexCenterColumn () {
+    style: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.mobileWidth (@width) {
+    width: @width;
+    margin: 0;
+    padding: 0;
+}
+
+.button(@fontcolor, @background) {
+    color: @fontcolor;
+    background-color: @background;
+    font-size: 2rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+}

@@ -128,6 +128,7 @@ table {
 }
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 html {
   font-size: 62.5%;
@@ -160,6 +161,42 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navContainer {
+  style: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 15px;
+  border: 2px solid #F1F1F1;
+  background: #F6F6F6;
+}
+.navContainer .navSubContainer {
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+.navContainer .navSubContainer h1 {
+  font-size: 4.25rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.navContainer .navSubContainer nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navContainer .navSubContainer nav a {
+  text-decoration: none;
+  color: #454A59;
+  font-size: 1.65rem;
+  padding-right: 17px;
+  padding-left: 17px;
+  padding-bottom: 10px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +206,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +252,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  color: white;
+  background-color: #22283A;
+  font-size: 2rem;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn button:hover {
+  color: #22283A;
+  background-color: white;
+  font-size: 2rem;
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
