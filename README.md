@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website changes format for functionality and readability based on specific screen sizes - such as for specific desktop monitor widths, mobile devices or tablets; and the change in the content’s format and appearance is often abrupt.  A fully responsive website changes the format and appearance of content fluidly as the user changes the size of the browser and continues to remain functional and readable no matter the screen size or browser size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first design builds a website or application first for optimal functionality and appearance on a mobile device then adds in media queries with min-width parameters that adjust the content for readability and functionality as the screen size grows larger.  Desktop first is built in the opposite manner. A desktop first design first designs the website for desktop use and then adds in media queries with max-width parameters that adjust the content for readability and function as the screen size grows smaller.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The default font size for the majority of websites is 16px, by creating a default font-size in the html tag of 62.5% this effectively makes the default font-size about 10px. Based on this, font-sizes using the unit of rem are set throughout the rest of the styling.  Because rem is relative to the root font-size the rem font-sizes can all be based off of the root value of 10, making calculating what the rem font-size would be in pixels much easier.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Pre-processing uses a program that introduces new syntax and more complex options for css styling such as nesting css style sections, variables, mixins, functions, importing and escapes. Depending on the pre-processor used, multiple files for different sections of a website can be created and then all imported into one single pre-processor file.  Then node can take that pre-processor file and compile it all into the vanilla css formats in a single css file.  The allows for greater functionality and organization, while then only loading a single css file to your website.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is being able to separate each section into a separate pre-processor file and then import them all into one single file.  For me, it makes it so much easier to focus on the section I am working on without scrolling through hundreds or thousands of lines of code.  Nesting the media queries has been giving me the most trouble, although I think now I see that I had been trying to use the CSS outline as a guide regarding the parent element when I should have only focused on the HTML outline.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
