@@ -8,11 +8,21 @@
     border: 2px solid @nav-border;
     background: @nav-bg;
 
+        @media @phone {
+           width: 95%;
+           align-items: center;
+        }
+
         .navSubContainer {
             align-items: center;
             margin: 0 auto;
             max-width: 800px;
             width: 100%;
+
+            @media @phone {
+                style: flex;
+                justify-items: center;
+             }
 
         h1 {
             font-size: 4.25rem;
